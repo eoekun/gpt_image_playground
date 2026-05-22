@@ -1,0 +1,19 @@
+src/components/SettingsModal.tsx
+  s_020f38bc822857::t_e1aedcc007c7ed 121-122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.1",
+  "base_commit_sha": "671421349717dc898f90836ebb8c9231861236a5",
+  "prompts": {},
+  "sessions": {
+    "s_020f38bc822857": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "3ae0807a-3353-4019-81a1-67fe8a889f8b",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "chenkun <chenkun@CK-MacBook-Pro.local>"
+    }
+  }
+}
