@@ -1,0 +1,28 @@
+src/components/SettingsModal.tsx
+  s_020f38bc822857::t_d01f8a3005b2a6 1-2,10,13,28-30,33,38-39,42,49,54-56,59,64,71,78-84,87-91,93-98,102-104,106-118,121-122,125-127
+README.md
+  s_020f38bc822857::t_cf84b64893391e 3
+index.html
+  s_020f38bc822857::t_3ef855479fcb4a 8,13
+src/components/Header.tsx
+  s_020f38bc822857::t_bc7b7f92b5dec4 143
+  s_020f38bc822857::t_3728e6d2a85d48 1,7
+public/manifest.webmanifest
+  s_020f38bc822857::t_7ee948ea44c7b2 2-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.1",
+  "base_commit_sha": "6f7f3a323f84efb226bc74c5d23973561f65af66",
+  "prompts": {},
+  "sessions": {
+    "s_020f38bc822857": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "3ae0807a-3353-4019-81a1-67fe8a889f8b",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "chenkun <chenkun@CK-MacBook-Pro.local>"
+    }
+  }
+}
