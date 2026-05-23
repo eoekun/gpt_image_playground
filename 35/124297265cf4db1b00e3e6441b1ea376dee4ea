@@ -1,0 +1,38 @@
+src/store.ts
+  s_e7be88bb9e95f4::t_a4dbe688f436c7 795-796
+  s_e7be88bb9e95f4::t_55b00f649fcd7c 1445,1447,1451
+src/hooks/useApiKeyEntryParams.ts
+  s_e7be88bb9e95f4::t_e98645badbf924 69
+src/components/Toast.tsx
+  s_e7be88bb9e95f4::t_3f8e00a328bd40 37-43,45-46
+.claude/skills/header-api-key/SKILL.md
+  s_e7be88bb9e95f4::t_c5dbe58d247394 3-33
+src/components/SettingsModal.tsx
+  s_e7be88bb9e95f4::t_c971d0804f4d23 1677,1681
+  s_e7be88bb9e95f4::t_0465e9ea103282 1586
+  s_e7be88bb9e95f4::t_9ed128b0db8f67 1545,1560
+  s_e7be88bb9e95f4::t_6f96d7a44a236b 1479,1481-1494,1496-1518,1520-1539,1541
+  s_e7be88bb9e95f4::t_1b574fb5d5688e 1650
+  s_e7be88bb9e95f4::t_43bc2d547e3e7b 1402
+  s_e7be88bb9e95f4::t_cf3020c498dd4a 1439
+  s_e7be88bb9e95f4::t_4bb7659292e163 1628
+  s_e7be88bb9e95f4::t_71d5bfa2d34773 1581
+  s_e7be88bb9e95f4::t_0fb00008526330 1575,1578
+  s_e7be88bb9e95f4::t_bcdc25097e2b85 1445
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "35124297265cf4db1b00e3e6441b1ea376dee4ea",
+  "prompts": {},
+  "sessions": {
+    "s_e7be88bb9e95f4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1f8e8c2a-73d8-4819-b6b9-6cc4aa695cc8",
+        "model": "gpt-5.5"
+      },
+      "human_author": "eoekun <eoekun@qq.com>"
+    }
+  }
+}
