@@ -1,0 +1,23 @@
+src/components/Header.tsx
+  s_020f38bc822857::t_69981d2003bdcb 23,27-29,35-37,199-222,224-240,264-281,293-297
+  s_020f38bc822857::t_879ce00718ebd2 182-198
+src/components/SettingsModal.tsx
+  s_020f38bc822857::t_2c29203da32041 1573-1659
+  s_020f38bc822857::t_315ffa9281f7cb 1977
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.1",
+  "base_commit_sha": "374b7e3b788e842e4af1e093d8cefd29402e2722",
+  "prompts": {},
+  "sessions": {
+    "s_020f38bc822857": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "3ae0807a-3353-4019-81a1-67fe8a889f8b",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "eoekun <eoekun@qq.com>"
+    }
+  }
+}
