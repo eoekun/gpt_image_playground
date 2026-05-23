@@ -1,0 +1,19 @@
+.gitignore
+  s_e7be88bb9e95f4::t_fecbd7f9f4df1d 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "98883545426833b0d047e1bf358c730316ba1f09",
+  "prompts": {},
+  "sessions": {
+    "s_e7be88bb9e95f4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1f8e8c2a-73d8-4819-b6b9-6cc4aa695cc8",
+        "model": "gpt-5.5"
+      },
+      "human_author": "eoekun <eoekun@qq.com>"
+    }
+  }
+}
