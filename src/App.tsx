@@ -3,6 +3,7 @@ import { initStore } from './store'
 import { useStore } from './store'
 import { buildSettingsFromUrlParams, clearUrlSettingParams, hasUrlSettingParams } from './lib/urlSettings'
 import { useDockerApiUrlMigrationNotice } from './hooks/useDockerApiUrlMigrationNotice'
+import { useApiKeyEntryParams } from './hooks/useApiKeyEntryParams'
 import Header from './components/Header'
 import SearchBar from './components/SearchBar'
 import TaskGrid from './components/TaskGrid'
@@ -23,6 +24,7 @@ export default function App() {
   const appMode = useStore((s) => s.appMode)
   useDockerApiUrlMigrationNotice()
   useGlobalClickSuppression()
+  useApiKeyEntryParams()
 
   useEffect(() => {
     const searchParams = new URLSearchParams(window.location.search)

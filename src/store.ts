@@ -792,8 +792,8 @@ interface AppState {
   dismissSupportPrompt: () => void
 
   // Toast
-  toast: { message: string; type: ToastType } | null
-  showToast: (message: string, type?: ToastType) => void
+  toast: { message: string; type: ToastType; placement?: 'center' | 'top-right'; durationMs?: number } | null
+  showToast: (message: string, type?: ToastType, placement?: 'center' | 'top-right', durationMs?: number) => void
 
   // Confirm dialog
   confirmDialog: {
@@ -1442,13 +1442,13 @@ export const useStore = create<AppState>()(
 
       // Toast
       toast: null,
-      showToast: (message, type = 'info') => {
+      showToast: (message, type = 'info', placement = 'center', durationMs = 3000) => {
         const toastMessage = getToastMessage(message, type)
-        const toast = { message: toastMessage, type }
+        const toast = { message: toastMessage, type, placement, durationMs }
         set({ toast })
         setTimeout(() => {
           set((s) => (s.toast === toast ? { toast: null } : s))
-        }, 3000)
+        }, durationMs)
       },
 
       // Confirm
