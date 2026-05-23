@@ -1,0 +1,39 @@
+src/components/SettingsModal.tsx
+  s_020f38bc822857::t_88a98e359e3a5e 1-4,7,14-15,24-26,29,34-35,38,45,50,53,58-60,62-65,67-72,74-82,84,86,88,91-93,95-96,98-99,103-104
+src/lib/eoekunApi.ts
+  s_020f38bc822857::t_8931d9862329b7 27-32
+src/App.tsx
+  s_020f38bc822857::t_3eb1818830ab7b 55
+  s_020f38bc822857::t_1d0b7693f8affc 21-22,26-27,35-43
+src/store.ts
+  s_020f38bc822857::t_d6dc9f3fe3d26c 798-803
+  s_020f38bc822857::t_d55e6ee63f1378 1460-1461,1463,1465
+  s_020f38bc822857::t_9bba548cca9766 1462,1464
+src/components/Header.tsx
+  s_020f38bc822857::t_7eeb51281461a3 138,145,160-163,165-167,169,171-173
+public/manifest.webmanifest
+  s_020f38bc822857::t_58c9b1d342de40 2-4
+README.md
+  s_020f38bc822857::t_9c3e3f92cabc82 3
+src/lib/urlSettings.ts
+  s_020f38bc822857::t_972cb706893e05 16
+  s_020f38bc822857::t_3ed31b2bf95512 13-15,17
+index.html
+  s_020f38bc822857::t_1458ec31de68ca 8,13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.1",
+  "base_commit_sha": "411e4487d196d1d20ef1bf08d0fec99df6e5049c",
+  "prompts": {},
+  "sessions": {
+    "s_020f38bc822857": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "3ae0807a-3353-4019-81a1-67fe8a889f8b",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "eoekun <eoekun@qq.com>"
+    }
+  }
+}
